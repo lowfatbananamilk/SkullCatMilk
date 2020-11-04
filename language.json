@@ -1,0 +1,1327 @@
+{
+	"defaultEmbed": {
+		"color": 9393544,
+		"author": {
+			"name": "SkullCat Milk - SAR Stat Bot"
+		}
+	},
+	"langInfo": {
+		"en": "480262009716211712",
+		"ko": "480262009716211712",
+		"zh_tw": "477998202206027777",
+		"zh_cn": "477998202206027777",
+		"ms": "516234356663123969",
+		"es": "740246863256485909"
+	},
+	"setting": {
+		"modSetting": {
+			"en": "Server Settings",
+			"ko": "서버 설정",
+			"ms": "Seting Server",
+			"zh_tw": "伺服器設定",
+			"zh_cn": "伺服器设定",
+			"es": "Configuraciones del servidor",
+			"allowTrack": {
+				"en": "Allow match reports",
+				"ko": "매치 보고서 허용",
+				"ms": "Benarkan laporan perlawan",
+				"zh_tw": "戰績回報",
+				"zh_cn": "战绩回报",
+				"es": "Permitir informes de partida"
+			},
+			"channel": {
+				"en": "Default channel - Set this channel as default",
+				"ko": "기본 채널 - 현 채널을 기본으로 설정",
+				"ms": "Saluran asal",
+				"zh_tw": "回報戰績的默認伺服器",
+				"zh_cn": "回报战绩的默认伺服器",
+				"es": "Canal predeterminado - Establecer este canal como predeterminado"
+			}
+		}
+	},
+	"gameServer": {
+		"en": "SAR Game Servers",
+		"ko": "SAR 게임 서버",
+		"zh_tw": "SAR伺服器",
+		"zh_cn": "SAR伺服器",
+		"ms": "Server Game SAR",
+		"es": "Servidores del juego SAR",
+		"start": {
+			"en": "Pinging.. 🏓",
+			"ko": "핑 보내는 중.. 🏓",
+			"zh_tw": "伺服器連線狀況",
+			"zh_cn": "伺服器连线状况",
+			"ms": "Pinging..🏓",
+			"es": "Pinging..🏓"
+		},
+		"last": {
+			"en": "Last ping",
+			"ko": "최근 핑",
+			"zh_tw": "目前ping值",
+			"zh_cn": "目前ping值",
+			"ms": "Pinging Terakhir",
+			"es": "Último ping"
+		},
+		"footer": {
+			"en": "Ping from bot's local server in South Korea",
+			"ko": "한국 SkullCat Milk 서버로부터의 핑",
+			"zh_tw": "ping值來自於BOT所在的南韓伺服器",
+			"zh_cn": "ping值来自于BOT所在的南韩伺服器",
+			"ms": "Ping daripada bot dari server lokal di Korea Selatan",
+			"es": "Ping desde el servidor local en Corea del Sur"
+		}
+	},
+	"track": {
+		"menu": {
+			"title": {
+				"en": "Match Tracking Options",
+				"ko": "매치 트래킹 옵션",
+				"zh_tw": "戰績追蹤選項",
+				"zh_cn": "战绩追踪选项",
+				"ms": "pilihan menjejak perlawanan",
+				"es": "Opciones de seguimiento de partida"
+			},
+			"en": "⏹: Stop tracking | 🔽: Post reports to this channel | 🔴: Toggle mention",
+			"ko": "⏹: 트래킹 중단 | 🔽: 보고서를 여기에 올리기 | 🔴: 맨션 토글",
+			"zh_tw": "⏹: 停止追蹤 | 🔽: 張貼戰績於這個伺服器| 🔴: 切換提及",
+			"zh_cn": "⏹: 停止追踪 | 🔽: 张贴战绩于这个伺服器| 🔴: 切换提及",
+			"ms": "⏹: Berhenti menjejak | 🔽: hantar laporan ke saluran ini | 🔴: Togel mention",
+			"es": "⏹: Detener seguimiento | 🔽: Publicar reportes en este canal | 🔴: Alternar mención",
+			"off": {
+				"en": "Tracking disabled",
+				"ko": "게임 트래킹 종료",
+				"zh_tw": "已取消追蹤",
+				"zh_cn": "已取消追踪",
+				"ms": "penjejakkan dinyahaktifkan",
+				"es": "Seguimiento deshabilitado"
+			},
+			"channelSwitch": {
+				"en": "Your match reports will be posted on this channel.",
+				"ko": "결과 보고서를 이 채널에 포스팅 합니다.",
+				"zh_tw": "你的戰績將張貼於這個伺服器",
+				"zh_cn": "你的战绩将张贴于这个伺服器",
+				"ms": " Laporan perlawanan anda akan dihantar ke saluran ini.",
+				"es": "Tu informe de partida será publicado en este canal"
+			},
+			"mention": {
+				"true": {
+					"en": "@Mentioning ON",
+					"ko": "@맨션 사용",
+					"zh_tw": "@提及 開啟",
+					"zh_cn": "@提及 开启",
+					"ms": "@Mention ON",
+					"es": "@Menciones ON"
+				},
+				"false": {
+					"en": "@Mentioning OFF",
+					"ko": "@맨션 비활성화",
+					"zh_tw": "@提及 關閉",
+					"zh_cn": "@提及 关闭",
+					"ms": "@Mention OFF",
+					"es": "@Menciones OFF"
+				}
+			},
+			"remove": {
+				"en": "Match Report closed",
+				"ko": "매치 보고서 삭제",
+				"zh_tw": "戰績回報已關閉",
+				"zh_cn": "战绩回报已关闭",
+				"ms": "Laporan perlawanan ditutup",
+				"es": "Informe de partida cerrado"
+			}
+		},
+		"report": {
+			"start": {
+				"en": "Generating the Match Report..",
+				"ko": "매치 보고서 생성중..",
+				"zh_tw": "戰績正在生成....",
+				"zh_cn": "正在生成战绩....",
+				"ms": "menjana laporan perlawanan",
+				"es": "Generando informe de partida"
+			},
+			"matchComplete": {
+				"en": "<GAMETYPE> match completed",
+				"ko": "<GAMETYPE> 매치 종료",
+				"zh_tw": "<GAMETYPE> 遊戲結束",
+				"zh_cn": "<GAMETYPE> 游戏结束",
+				"ms": " <GAMETYPE> perlawanan selesai",
+				"es": " <GAMETYPE> Partida completada"
+			},
+			"summary": {
+				"Kills": {
+					"en": "<#> kills",
+					"ko": "<#> 킬",
+					"zh_tw": "<#> 擊殺",
+					"zh_cn": "<#> 击杀",
+					"ms": "<#> bunuh",
+					"es": "<#> Bajas"
+				},
+				"DamageDealt": {
+					"en": "<#> dmg.",
+					"ko": "피해량 <#>",
+					"zh_tw": "<#>傷害",
+					"zh_cn": "<#>伤害",
+					"ms": "<#> Kecederaan ditangani",
+					"es": "<#> Daño inflingido"
+				},
+				"TimePlayedSeconds": {
+					"en": "Survived <MM>m <SS>s",
+					"ko": "<MM>분 <SS>초 생존",
+					"zh_tw": "存活時間:<MM>分 <SS>秒",
+					"zh_cn": "存活时长:<MM>分 <SS>秒",
+					"ms": "bertahan:<MM>m<SS>s",
+					"es": "Sobrevivió <MM>m<SS>s"
+				},
+				"DistanceTraveled": {
+					"en": "Traveled <#> km",
+					"ko": "<#> km 이동",
+					"zh_tw": "已行走<#>公里",
+					"zh_cn": "已行走<#>公里",
+					"ms": "<#>km Jarak perjalanan",
+					"es": "<#>km recorridos"
+				}
+			},
+			"combat": {
+				"en": "Kills:",
+				"ko": "킬수:",
+				"zh_tw": "擊殺數:",
+				"zh_cn": "杀:",
+				"ms": "bunuh:",
+				"es": "Bajas",
+				"GrenadeKills": {
+					"en": "Throwable Kills",
+					"ko": "투척물 킬",
+					"zh_tw": "投擲物(手榴彈&臭鼬彈)擊殺",
+					"zh_cn": "投掷物(手雷&臭鼬弹)击杀",
+					"ms": "bunuh dengan bom",
+					"es": "Bajas con granada"
+				},
+				"MeleeKills": {
+					"en": "Melee Kills",
+					"ko": "근접 킬",
+					"zh_tw": "近戰擊殺",
+					"zh_cn": "近战击杀",
+					"ms": "pertempuran jarak dekat",
+					"es": "Bajas a melé"
+				},
+				"VehicleKills": {
+					"en": "Hamster Ball Kills",
+					"ko": "햄스터볼 킬",
+					"zh_tw": "倉鼠球擊殺",
+					"zh_cn": "仓鼠球击杀",
+					"ms": "pembunuhan kenderaan",
+					"es": "Bajas con Bola de Hámster"
+				},
+				"EmuKills": {
+					"en": "Emu Kills",
+					"ko": "에뮤 킬",
+					"zh_tw": "鴯鶓擊殺",
+					"zh_cn": "鸸鹋击杀",
+					"ms": "Pembunuhan emu",
+					"es": "Bajas con Emú"
+				},
+				"DamageDealt": {
+					"en": "Damage Dealt",
+					"ko": "피해량",
+					"zh_tw": "總傷害",
+					"zh_cn": "总伤害",
+					"ms": "Kecederaan ditangani",
+					"es": "Daño inflingido"
+				},
+				"SkunkBombDamageDealt": {
+					"en": "Skunk bomb dmg.",
+					"ko": "스컹크 폭탄 피해량",
+					"zh_tw": "臭鼬彈造成傷害",
+					"zh_cn": "臭鼬弹造成伤害",
+					"ms": "kecederaan bom skunk",
+					"es": "Daño de bombeta mofeta infligido"
+				},
+				"EnemyArmorBroken": {
+					"en": "Enemy Armor Broken",
+					"ko": "적군 방어복 파괴",
+					"zh_tw": "破壞敵人護甲數",
+					"zh_cn": "破坏敌人护甲数",
+					"ms": "perisai musuh dirosakkan",
+					"es": "Armadura de enemigo destruida"
+				},
+				"BananaHits": {
+					"en": "Players fell on Your Banana",
+					"ko": "바나나 껍질로 넘어뜨린 플레이어 수",
+					"zh_tw": "用香蕉使玩家滑倒",
+					"zh_cn": "用香蕉使玩家滑倒",
+					"ms": "Pemain yang terjatuh kerana pisang anda",
+					"es": "Jugadores que resbalaron en tu Banana"
+				},
+				"BananaHitsEnemyOnly": {
+					"en": "Enemies fell on Your Banana",
+					"ko": "바나나 껍질로 넘어뜨린 적군수",
+					"zh_tw": "用香蕉使敵人滑倒",
+					"zh_cn": "用香蕉使敌人滑倒",
+					"ms": "Musuh yang terjatuh kerana pisang anda",
+					"es": "Enemigos que resbalaron en tu Banana"
+				},
+				"BananaHitsFriendly": {
+					"en": "Teammates & yourself fell on Your Banana",
+					"ko": "바나나 껍질로 넘어뜨린 아군수",
+					"zh_tw": "用香蕉使友軍&自己滑倒",
+					"zh_cn": "用香蕉使友军&自己滑倒",
+					"ms": "Rakan sepasukan & anda yang terjatuh kerana pisang anda",
+					"es": "Todos los que resbalaron en tu Banana"
+				}
+			},
+			"gameplay": {
+				"en": "Time Survived",
+				"ko": "생존한 시간",
+				"zh_tw": "存活時間",
+				"zh_cn": "存活时长",
+				"ms": "masa bertahan",
+				"es": "Tiempo sobrevivido",
+				"HealthJuiceDrank": {
+					"en": "of Health Juice Drank",
+					"ko": "건강 주스 섭취",
+					"zh_tw": "生命果汁回復量",
+					"zh_cn": "生命果汁回复量",
+					"ms": "Jus kesihtan diminum",
+					"es": "de Zumo de Salud consumido"
+				},
+				"CoconutsAte": {
+					"en": "Coconuts Ate",
+					"ko": "코코넛 섭취",
+					"zh_tw": "吃椰子數",
+					"zh_cn": "吃椰子数",
+					"ms": "Kelapa yang dimakan",
+					"es": "Cocos devorados"
+				},
+				"CampfiresUsed": {
+					"en": "Campfires Lit",
+					"ko": "모닥불 점화",
+					"zh_tw": "營火使用數",
+					"zh_cn": "营火使用数",
+					"ms": "unggun api dinyalakan",
+					"es": "Hogeras usadas"
+				},
+				"TapeUsed": {
+					"en": "Super Tapes Used",
+					"ko": "슈퍼 테이프 사용",
+					"zh_tw": "膠帶使用數",
+					"zh_cn": "胶带使用数",
+					"ms": "Pita Super digunakan",
+					"es": "Super Cinta usada"
+				},
+				"ParachuteSplats": {
+					"0": {
+						"en": "Successful",
+						"ko": "성공",
+						"zh_tw": "成功",
+						"zh_cn": "成功",
+						"ms": "tersembam dari payung terjun",
+						"es": "Exitoso"
+					},
+					"1": {
+						"en": "Failed",
+						"ko": "실패",
+						"zh_tw": "失敗",
+						"zh_cn": "失败",
+						"ms": "Gagal",
+						"es": "Falllido"
+					},
+					"en": "Landing",
+					"ko": "착륙",
+					"zh_tw": "降落",
+					"zh_cn": "落地",
+					"ms": "Mendarat",
+					"es": "Aterrizaje"
+				},
+				"DistanceTraveled": {
+					"en": "of Distance Traveled",
+					"ko": "이동",
+					"zh_tw": "行進距離",
+					"zh_cn": "行进距离",
+					"ms": "Jarak perjalanan",
+					"es": "Distancia recorrida"
+				},
+				"SuperJumpRolls": {
+					"en": "Super Jump Rolls",
+					"ko": "슈퍼 구르기",
+					"zh_tw": "跳滾次數",
+					"zh_cn": "跳滚次数",
+					"ms": "Lompat dan gulingan super",
+					"es": "Super volteretas"
+				},
+				"GrassCut": {
+					"en": "Grasses Cut",
+					"ko": "잔디 깎음",
+					"zh_tw": "割草數",
+					"zh_cn": "割草数",
+					"ms": "Rumput dipotong",
+					"es": "Hierba cortada"
+				},
+				"DestructiblesDestroyed": {
+					"en": "Objects Destroyed",
+					"ko": "물체 파괴",
+					"zh_tw": "破壞物件數",
+					"zh_cn": "破坏物件数",
+					"ms": "Objek dimusnahkan",
+					"es": "Destructibles destruidos"
+				}
+			},
+			"events": {
+				"Wins": {
+					"en": "Top of The Food Chain!",
+					"ko": "먹이사슬의 꼭대기!",
+					"zh_tw": "食物鏈的頂端!",
+					"zh_cn": "食物链的顶端!",
+					"ms": "Anda di atas rantaian makanan!",
+					"es": "¡En la cima de la cadena alimentaria!"
+				},
+				"Top": {
+					"en": "Top<#>!",
+					"ko": "상위 <#>위!",
+					"zh_tw": "第<#>",
+					"zh_cn": "第<#>",
+					"ms": "<#>teratas!",
+					"es": "¡Top<#>!"
+				},
+				"default": {
+					"en": "Completed a Match",
+					"ko": "매치 완료",
+					"zh_tw": "完成場次數",
+					"zh_cn": "完成场次数",
+					"ms": "perlawanan diselesaikan",
+					"es": "Completó una partida"
+				},
+				"MoleCrates": {
+					"en": "Mole Crates Opened",
+					"ko": "두더지 택배 개봉",
+					"zh_tw": "土撥鼠寶箱開啟數",
+					"zh_cn": "土拨鼠宝箱开启数",
+					"ms": "Peti Mole Dibuka",
+					"es": "Cargamentos de Topo Abiertos"
+				},
+				"Scarecrows": {
+					"en": "Scarecrows Destroyed",
+					"ko": "허수아비 파괴",
+					"zh_tw": "稻草鴨摧毀數",
+					"zh_cn": "稻草鸭摧毁数",
+					"ms": "Orang-orang Dihancurkan",
+					"es": "Espantapajaros destruidos"
+				},
+				"ChickenWins": {
+					"en": "Won the match as a Super Chicken",
+					"ko": "슈퍼 닭으로 승리",
+					"zh_tw": "使用超級雞贏得遊戲",
+					"zh_cn": "使用超级鸡赢得游戏",
+					"ms": "Menenang perlawanan sebagai Ayam Super",
+					"es": "Ganó la partida como una Super Gallina"
+				},
+				"TurkeyWins": {
+					"en": "Won the match as a Super Turkey",
+					"ko": "슈퍼 칠면조로 승리",
+					"zh_tw": "使用超級火雞贏得遊戲",
+					"zh_cn": "使用超级火鸡赢得游戏",
+					"ms": "Menang perlawan sebagai Ayam Belanda Super",
+					"es": "Ganó la partida como un Super Pavo"
+				},
+				"NoArmorVictoriesSolo": {
+					"en": "Won without wearing a single armor",
+					"ko": "방어복 없이 승리",
+					"zh_tw": "未穿任何裝甲贏得遊戲",
+					"zh_cn": "未穿任何装甲赢得游戏",
+					"ms": "Menang tanpa memakai sebarang perisai",
+					"es": "Ganó sin usar una sola armadura"
+				},
+				"MeleeVictoriesSolo": {
+					"en": "Won with only the melee kills",
+					"ko": "근접 킬로만 승리",
+					"zh_tw": "只使用進戰武器贏得遊戲",
+					"zh_cn": "只使用进战武器赢得游戏",
+					"ms": "Menang dengan hanya melakukan pembunuhan jarak dekat",
+					"es": "Ganó solo con bajas a melé"
+				},
+				"PacifistVictoriesSolo": {
+					"en": "Won without any damages dealt to others",
+					"ko": "가한 피해량 없이 승리",
+					"zh_tw": "未造成任何傷害贏得遊戲",
+					"zh_cn": "未造成任何伤害赢得游戏",
+					"ms": "Menang tanpa melalakukan sebarang kecederaan kepada yang lain",
+					"es": "Ganó sin dañar a los demás"
+				},
+				"BananOfferings": {
+					"en": "Offered a banana at the Banana Altar",
+					"ko": "바나나 재단에서 바나나를 바침",
+					"zh_tw": "向香蕉神殿奉獻香蕉",
+					"zh_cn": "向香蕉神殿奉献香蕉",
+					"ms": "Tawarkan pisang di mezbah pisang",
+					"es": "Ofreció una banana al Altar Banana"
+				},
+				"BarnRebelDoor": {
+					"en": "Opened up the door to the SASR hideout in the Super Milk Barn",
+					"ko": "슈퍼 동물 농장의 SASR 비밀기지 문을 엶",
+					"zh_tw": "打開超級動物反抗軍的密門",
+					"zh_cn": "打开超级动物反抗军的密门",
+					"ms": "Buka pintu tempat persembunyian SASR di  Gudang Susu Super",
+					"es": "Abre la puerta secreta de la Super Resistencia Animal"
+				},
+				"BeGalleryTarget": {
+					"en": "Got shot from an enemy by the targets in the Shooting Gallery",
+					"ko": "슈팅 갤러리 과녁판 쪽에서 공격받음",
+					"zh_tw": "在訓練場成為標靶",
+					"zh_cn": "在训练场成为标靶",
+					"ms": "Ditembak oleh musuh di sasaran Galeri Menembak",
+					"es": "Recibió un disparo de un enemigo por los objetivos en la Galería de Tiro"
+				},
+				"GalleryTargetsHit": {
+					"en": "Shot a target in the Shooting Gallery",
+					"ko": "슈팅 갤러리의 과녁을 맞춤",
+					"zh_tw": "在訓練場射擊標靶",
+					"zh_cn": "在训练场射击标靶",
+					"ms": "Tembak sasaran di Galeri Menembak",
+					"es": "Le disparó a un objetivo en la Galería de Tiro"
+				},
+				"GalleryTargetsHitBow": {
+					"en": "Shot a target in the Shooting Galley with a bow",
+					"ko": "슈팅 갤러리의 과녁을 활로 맞춤",
+					"zh_tw": "在訓練場使用弓射擊標靶",
+					"zh_cn": "在训练场使用弓射击标靶",
+					"ms": "Tembak sasaran dengan menggunakan panah di Galeri Menembak",
+					"es": "Le disparó a un objetivo con un arco en la Galería de Tiro"
+				},
+				"RatGG": {
+					"en": "Killed the rat NPC in the Superite Mountain with a poison dart",
+					"ko": "슈퍼광석 광산에서 쥐를 다트건으로 죽임",
+					"zh_tw": "用毒標槍射死在紫晶山洞穴的老鼠",
+					"zh_cn": "用毒标枪射死在紫晶山洞穴的老鼠",
+					"ms": "Bunuh NPC tikus di Gunung Superite dengan menggunakan panah racun",
+					"es": "Mató a la rata NPC en la Montaña Superita con un dardo venenoso"
+				},
+				"DancingInTheRain": {
+					"en": "Emoted in the rain",
+					"ko": "비올때 춤춤",
+					"zh_tw": "在香蕉雨中跳舞",
+					"zh_cn": "在香蕉雨中跳舞",
+					"ms": "lakukan emote di dalam hujan",
+					"es": "Bailó bajo la lluvia de bananas"
+				}
+			}
+		},
+		"msg": {
+			"lost": {
+				"en": "<USER>, some of your previous match records went missing. Make sure your Discord RPC is properly following the SAR game status.",
+				"ko": "<USER> 매치 트래킹에 실패했습니다. 디스코드 상태표시가 SAR 게임 상태를 잘 표시하고 있는지 확인해 주세요.",
+				"zh_tw": "<USER> 前幾場的配對未被追蹤,請確保你的個人狀態處於遊戲中",
+				"zh_cn": "<USER> 前几场的配对未被追踪,请确保你的个人状态处于游戏中",
+				"ms": "<USER> Beberapa pemainan yang lepas tidak dijejaki. Pastikan `Super Animal Royale` diaktifkan di `Game Activities`anda",
+				"es": "<USER> Algunos de tus registros de partidas anteriores desaparecieron. Asegúrese de que el indicador de estado de Discord muestre bien el estado del juego SAR. "
+			},
+			"notTracking": {
+				"en": "You are not on the tracking list",
+				"ko": "매치 트래킹중이 아닙니다.",
+				"zh_tw": "你目前未被追蹤",
+				"zh_cn": "你目前未被追踪",
+				"ms": "Anda tidak berada dalam senarai penjejakan",
+				"es": "No estás en la lista de seguimiento"
+			},
+			"wrongChannel": {
+				"en": "You're already on tracking list. Match reports will be posted on <CHANNELID>",
+				"ko": "이미 트래킹중이며 <CHANNELID>에서 포스팅 중입니다: ",
+				"zh_tw": "你已追蹤中,戰績將會貼在此處  <CHANNELID>",
+				"zh_cn": "你已追踪中,战绩将会贴在此处  <CHANNELID>",
+				"ms": "Kamu sudah berada disenarai penjejakkan. Laporan perlawanan akan diposkan disini  <CHANNELID>",
+				"es": "Ahora estas en la lista de seguimiento. Los informes de seguimiento seran publicados en  <CHANNELID>"
+			},
+			"wrongServer": {
+				"en": "You're already on the tracking list but on another server/DM.\nYou can only be tracked on one channel at once. (this is to prevent confusions)\nYou can still do `sk track stop` here to stop tracking.",
+				"ko": "이미 트래킹중이나 다른 서버 또는 DM에서 포스팅 중입니다.\n트래킹은 한번에 한 채널에서만 가능합니다. (많이하면 뭐가 뭔지 헷갈려요)\n여기서도 `sk track stop`으로 트래킹을 멈출 수 있습니다.",
+				"zh_tw": "你早已在另一個伺服器上追蹤中 \n為了避免BOT產生混亂,你只能在一個頻道內被追蹤 \n但你可使用 `sk track stop` 停止在此頻道的追蹤",
+				"zh_cn": "你早已在另一个伺服器上追踪中 \n为了避免BOT产生混乱,你只能在一个频道内被追踪 \n但你可使用 `sk track stop` 停止在此频道的追踪",
+				"ms": "Kamu sudah berada dalam senarai penjejakkan tetapi di server lain.\n kamu hanya akan dijejak di satu saluran sahaja. (untuk mencegah kekeliruan)\nKamumasih dapat lakukan `sk track stop` di sini untuk memberhentikan penjejakkan.",
+				"es": "Ya estás en la lista de seguimiento pero en otro servidor./DM.\nSolo puedes hacer el seguimiento en un canal por vez.(Esto es para prevenir confusiones)\nTodavia puedes seguir haciendo `sk track stop`aquí para detener el seguimiento"
+			},
+			"wrongDm": {
+				"en": "You're already on tracking list.\nMatch reports are being posted on <CHANNEL> in \"<SERVER>\" server",
+				"ko": "이미 트래킹중이며 \"<SERVER>\" 서버의 <CHANNEL>에서 포스팅 중입니다.",
+				"zh_tw": "你已追蹤中 \n戰績回報將發布於\"<SERVER>\"伺服器的 <CHANNEL> 頻道中",
+				"zh_cn": "你已追踪中,\n战绩回报将发布于\"<SERVER>\"伺服器的 <CHANNEL> 频道中",
+				"ms": "Anda sudah berada di senarai jejekan.\nLaporan permainan anda di poskan di <CHANNEL> dalam \"<SERVER>\" server",
+				"es": "Ya estas en la lista de segimiento.\nLos informes de partida seran publicados en <CHANNEL>en \"<SERVER>\" server"
+			},
+			"start": {
+				"en": "Tracking is now on and your match reports will be posted on this channel.",
+				"ko": "매치 트래킹 시작. 라운드 결과는 이 채널에 올라옵니다.",
+				"zh_tw": "你已追蹤中,戰績將會貼在此頻道",
+				"zh_cn": "你已追踪中,战绩将会贴在此频道",
+				"ms": "Penjejakkan sudah diaktifkan dan laporan perlawanan anda akan diposkan di saluran ini",
+				"es": "El seguimiento ahora está activado y sus informes de las partidas se publicarán en este canal."
+			},
+			"dmFail": {
+				"en": "Unable to track your game statuses! You need to be in at least one server where <BOT> resides in.\nYou can make your own Discord server and invite the bot in as well. See `sk bot` for the bot invite link.",
+				"ko": "게임 진행 상황을 추적할 수 없습니다! <BOT>가 있는 디스코드 서버에 같이 있어야 합니다.\n개인 서버를 만드시고 봇을 추가하셔도 무방합니다. `sk bot`에서 봇 초대 링크를 찾으실 수 있습니다.",
+				"zh_tw": "無法追蹤你的遊戲概況!你至少要有一個頻道供BOT使用 \n你可以創建一個屬於自己的Discord伺服器並邀請BOT `sk bot`查看BOT邀請連結",
+				"zh_cn": "无法追踪你的游戏概况!你至少要有一个频道供BOT使用 \n你可以创建一个属于自己的Discord伺服器并邀请BOT `sk bot`查看BOT邀请连结",
+				"ms": "Tidak dapat menjejaki status  permainana anda! Anda perlu sekurangnya berada di satu server dimana <BOT> berada.\nAnda boleh membuat server Discord anda dan menjemput bot it juga. Lihat `sk bot` untuk link jemput bot",
+				"es": "¡No se puede rastrear los estados de tu juego! Debes estar en al menos un servidor donde reside <BOT>. \nPuedes crear tu propio servidor de Discord e invitar al bot también. Consulte `sk bot` para ver el enlace de invitación al bot."
+			},
+			"dmSuccess": {
+				"en": "If you don't happen to get anymore match reports in the DM, try resetting with 🔽`channel` in the `Tracking Options`",
+				"ko": "DM으로 매치 결과가 올라오지 않는다면 `매치 옵션`에서 🔽`채널`을 다시 설정해 주세요.",
+				"zh_tw": "如果你不想再收到戰績 可以使用'追蹤選項'中的🔽`頻道`重置",
+				"zh_cn": "如果你不想再收到战绩 可以使用'追踪选项'中的🔽`频道`重置",
+				"ms": "Jika anda tidak mendapat laporan permainan di dalam DM anda, cuba reset semula dengan 🔽`saluran` di dalam `Option jejakan`",
+				"es": "Si no recibe más informes de coincidencias en el DM, intente restablecer con 🔽`canal` en las` Opciones de seguimiento` "
+			}
+		}
+	},
+	"link": {
+		"intro": {
+			"en": "You can search and link your steam account to the bot here\nTry `sk link [Your Steam profile Page Link]`\nSee `sk help` for more info.",
+			"ko": "이 명령어로 스팀 계정을 검색하고 본인 계정을 봇에 등록할 수 있습니다.\n`sk link [스팀 프로파일 주소]`으로 시작하세요.\n`sk help`에서 더 자세히 알아 볼 수 있습니다.",
+			"zh_tw": "你可以使用搜尋來連結你的Steam帳號\n使用 `sk link [Your Steam profile Page Link]`\n查看`sk help player`以獲取更多資訊",
+			"zh_cn": "你可以使用搜寻来连结你的Steam帐号\n使用 `sk link [Your Steam profile Page Link]`\n查看`sk help player`以获取更多资讯",
+			"ms": "Anda boleh mencari dan memautkan akaun steam anda kepada bot disini.\n`sk link [Link profil Steam anda]`\nLihat `sk help` untuk info lebih.",
+			"es": "Aquí puedes buscar y vincular tu cuenta de steam al bot \nPrueba `sk link [Link profil Steam anda]`\nConsulta `sk help` para más información"
+		},
+		"notice": {
+			"en": "⚠ By having your account linked, others using the bot can look up your statistics using <USER>",
+			"ko": "⚠ 스팀 계정을 등록히면 봇을 이용하는 다른 사용자가 <USER>을 이용해서 전적을 조회할 수 있게 됩니다.",
+			"zh_tw": "⚠警告:由於你的帳號已連接,其他人可透過Discord的提及,來查詢你的戰績   <USER>",
+			"zh_cn": "⚠警告:由于你的帐户已连接,其他人可透过Discord的提及,来查询你的战绩   <USER>",
+			"ms": "⚠ Dengan memautakan akaun anda, mereka yang menggunnakan bot ini dapat melihat statistik anda dengan mengunakan Discord metion   <USER>",
+			"es": "⚠ Al vincular su cuenta, otras personas que usen el bot pueden buscar las estadísticas a través de la mención de Discord  <USER>"
+		},
+		"view": {
+			"en": "You can reassign your account with `sk link [Steam Profile Page Link]` or remove the account with `sk unlink`\n⚠ Removing an account will remove your language preference as well.\nCurrently linked to:",
+			"ko": "`sk link [스팀 프로파일 주소]`로 다시 등록하거나 `sk unlink`로 계정을 삭제할 수 있습니다.\n⚠ 계정 삭제시 언어 설정도 함께 삭제됩니다.\n연결된 계정:",
+			"zh_tw": "你可以使用`sk link [Steam Profile Page Link]`或 `sk unlink`來移除帳戶\n⚠移除帳號將會連同移除顯示語言\n將會移除下面這個帳號的資料",
+			"zh_cn": "你可以使用`sk link [Steam Profile Page Link]`或 `sk unlink`来移除帐户\n⚠移除帐号将会连同移除显示语言\n將會移除下面這個帳號的資料",
+			"ms": "Anda boleh menetapkan semula akaun anda dengan `sk link [Link Profil Page Steam]` atau anda boleh buang akaun anda dengan `sk unlink`\n⚠ Membuang akaun akan membuang bahasa pilihan anda juga.\nPada masa ini dipautakan                pada:",
+			"es": "Puedes reasignar tu cuenta con `sk link [Steam Profile Page Link]` o eliminarla con `sk unlink`\n⚠ Al eliminar una cuenta también se eliminará su preferencia de idioma .\nActualmente vinculado a:"
+		},
+		"confirm": {
+			"en": "Is this you?",
+			"ko": "이 계정이 맞나요?",
+			"zh_tw": "這是你嗎?",
+			"zh_cn": "这是你吗?",
+			"ms": "Adakah ini kamu?",
+			"es": "¿Este eres tú?"
+		},
+		"lang": {
+			"en": "Country information found. Setting <FLAG> <LANG> as your language preference.",
+			"ko": "언어 정보를 찾았습니다. 안내 언어를 <FLAG> <LANG>로 설정합니다.",
+			"zh_tw": "已設定地區語言,點選<FLAG> <LANG>來設定顯示語言 ",
+			"zh_cn": "已设定地区语言,点选<FLAG> <LANG>来设定显示语言",
+			"ms": "Maklumat negara jumpa. Seting <FLAG> <LANG> sebagai bahasa pilihan anda.",
+			"es": "Información del país encontrado. Configurar  <FLAG> <LANG> como tu idioma de preferencia"			
+		},
+		"complete": {
+			"en": "Account linked! GLHF",
+			"ko": "계정연결 완료! GLHF",
+			"zh_tw": "帳號連接成功!Good Luck ,Have Fun",
+			"zh_cn": "帐户连接成功!Good Luck ,Have Fun",
+			"ms": "akaun anda sudah dipautkan",
+			"es": "¡Tu cuenta ya está vinculada!Buena suerte, Diviertete"
+		},
+		"close": {
+			"en": "Account information closed",
+			"zh_tw": "帳號資訊已關閉",
+			"zh_cn": "帐户资讯已关闭",
+			"ko": "계정 정보 닫힘",
+			"ms": "Informasi akaun ditutup",
+			"es": "Información de la cuenta cerrada"
+		},
+		"notLinked": {
+			"en": "You don't have any Steam account linked.",
+			"zh_tw": "你的Steam帳號尚未進行連接",
+			"zh_cn": "你的Steam帐号尚未进行连接",
+			"ko": "연결된 스팀 계정이 없습니다.",
+			"ms": "Anda tidak mempunyai sebarang akaun Steam yang dipautkan",
+			"es": "Tú no tienes ninguna cuenta de Steam vinculada"
+		},
+		"unLinked": {
+			"en": "Done! Your account has been removed. Thanks for playing!",
+			"ko": "등록된 계정을 삭제했습니다. 이용해 주셔서 감사합니다!",
+			"zh_tw": "完成!你的帳號已移除,感謝你的使用 後會有期!",
+			"zh_cn": "完成!你的帐户已移除,感谢你的使用 后会有期!",
+			"ms": "Selesai! Akaun anda sudah dikeluarkan.",
+			"es": "¡Listo! Tu cuenta ha sido eliminada. ¡Gracias por jugar!"
+		}
+	},
+	"lang": {
+		"msg": {
+			"en": "Embed messages on match reports and profile statistics follow the server language setting, which is <FLAG> <LANG> for this server.\nOthers will follow your preference. Some with the reactions interface that would refresh the message will alter the language to the respondent's",
+			"zh_tw": "在這個伺服器上的個人總戰績和戰績回報將會根據你選擇的<FLAG> <LANG>而呈現 \n其他人也可以看見你選擇的語言呈現介面,有些回應介面在你選了不同語言後將會刷新",
+			"zh_cn": "在这个伺服器上的个人总战绩和战绩回报将会根据你选择的<FLAG> <LANG>而呈现 \n其他人也可以看见你选择的语言呈现介面,有些回应介面在你选了不同语言后将会刷新",
+			"ko": "매치 보고서와 프로필 메시지는 서버 언어 설정인 <FLAG><LANG>을 따릅니다.\n그외의 메시지 언어설정을 할 수 있으며, 반응 추가를 통해 새로고침되는 메시지는 반응한 사람의 언어에 맞춰 다시 생성됩니다.",
+			"ms": "Mesej embed di laporan permainan dan profil statistik akan mengikut seting bahasa server, iaitu <FLAG> <LANG> untuk server ini.\nYang lain akan mengikuti pilihan anda. Sebahagian dengan interface reaksi itu akan mempebaharui mesej dan mengubah bahasa mengikut responden.",
+			"es": "Los mensajes insertados en los informes de partidos y las estadísticas de perfil siguen la configuración del idioma del servidor, que es <FLAG> <LANG> para este servidor. \nOtros seguirán su preferencia. Algunos con la interfaz de reacciones que actualizarían el mensaje y cambiarán el idioma al del encuestado "
+		},
+		"description": {
+			"en": "Do you want any other languages in the bot?\nSee anything off?\nHelp us translate! Contact <BANANAMILK>\n\nCurrently available:",
+			"ko": "추가되었으면 하는 언어가 있나요?\n이상한 문구가 있나요?\n봇 번역을 도와주세요! <BANANAMILK>로 문의 바랍니다.\n\n사용가능한 언어:",
+			"zh_tw": "想要為SkullCat Milk新增其他語言嗎? \n幫助我們進行翻譯! 詳情請聯絡<BANANAMILK>\n\n目前在線",
+			"zh_cn": "想要为SkullCat Milk新增其他语言吗? \n帮助我们进行翻译! 详情请联络<BANANAMILK>\n\n目前在线",
+			"ms": "Adakah anda mahukan bahasa lain pada bot?\nLihat sesuatu yang tersilap?\nTolong kami terjemahkan! hubungi <BANANAMILK>\n\nPada masa ini boleh dihubungi:",
+			"es": "¿Quieres otro idioma en el bot?\nVes algo fuera de lugar?\n¡Ayudanos a traducir!Contacta a <BANANAMILK>\n\nActualmente disponible"
+		},
+		"footer": {
+			"en": "Translated by <YOU>",
+			"ko": "번역: <YOU>",
+			"zh_tw": "翻譯人員 : <YOU>",
+			"zh_cn": "翻译人员 : <YOU>",
+			"ms": "Diterjemahkan oleh <YOU>",
+			"es": "Traducido por : <YOU>"
+		},
+		"set": {
+			"en": "Set to 🇺🇸/🇬🇧 en!",
+			"ko": "🇰🇷 ko로 변경!",
+			"zh_tw": "設定成🇹🇼!",
+			"zh_cn": "設定成🇨🇳!",
+			"ms": "Set kepada ms 🇲🇾!",
+			"es": "Configurado para 🇪🇸!"
+		}
+	},
+	"common": {
+		"GAMETYPE": {
+			"Solos": {
+				"en": "Solos",
+				"ko": "솔로",
+				"zh_tw": "單排",
+				"zh_cn": "单排",
+				"ms": "Solo",
+				"es": "Solo"
+			},
+			"Duos": {
+				"en": "Duos",
+				"ko": "듀오",
+				"zh_tw": "雙排",
+				"zh_cn": "双排",
+				"ms": "Duo",
+				"es": "Dúos"
+			},
+			"Squads": {
+				"en": "Squads",
+				"ko": "스쿼드",
+				"zh_tw": "團隊",
+				"zh_cn": "团队",
+				"ms": "Skuad",
+				"es": "Escuadrón"
+			},
+			"Overall": {
+				"en": "Overall",
+				"ko": "통합",
+				"zh_tw": "總計",
+				"zh_cn": "总计",
+				"ms": "Keseluruhan",
+				"es": "En general"
+			}
+		},
+		"rank": {
+			"en": "<#>ᵗʰ",
+			"ko": "<#>등",
+			"zh_tw": "名 <#>",
+			"zh_cn": "名 <#>",
+			"ms": "peringkat <#>",
+			"es": "<#>ᵗʰ"
+		},
+		"msg": {
+			"notLinkedSelf": {
+				"en": "I need to know your Steam account to do this.\nLink your account with `sk link` command!",
+				"ko": "등록된 스팀 계정이 없어 수행할 수 없습니다.\n`sk link`로 계정을 등록하세요!",
+				"zh_tw": "我需要你的Steam帳號來進行連接!\n輸入指令 `sk link` 來連接你的帳戶!",
+				"zh_cn": "我需要你的Steam帐户来进行连接!\n输入指令 `sk link` 来连接你的帐户!",
+				"ms": "Saya perlu tahu akaun Steam  untuk melakukan ini.\nPautkan akaun anda dengan komand!`sk link`.",
+				"es": "Necesito conocer tu cuenta de Steam para hacer esto.\nVincula tu cuenta con el comando `sk link`."
+			},
+			"noPlayFab": {
+				"en": "This player is on `Super Free Edition` or has not yet started the game.",
+				"ko": "해당 플레이어가 `슈퍼 무료 버전`을 이용 중이거나, 게임 접속 기록이 없습니다.",
+				"zh_tw": "這個玩家使用的是 '超級免費版' ,或者尚未啟動遊戲",
+				"zh_cn": "这个玩家使用的是 '超级免费版' ,或者尚未启动游戏",
+				"ms": "Pemain ini berada di 'Super Free Edition' atau tidak mula permainan ini.",
+				"es": "Este jugador está en `Super Free Edition` o todavía no ha iniciado el juego."
+			},
+			"noSteam": {
+				"en": "Unable to find any Steam user within the given search term.",
+				"ko": "주어진 검색어로 찾은 스팀 유저가 없습니다.",
+				"zh_tw": "關鍵字找不到任何用戶",
+				"zh_cn": "关键字找不到任何用户",
+				"ms": "Tidak dapat menjumpai pengunna Steam dalam istilah carian diberikan.",
+				"es": "No se pudo encontrar ningún usuario de Steam dentro del término de búsqueda dado"
+			},
+			"permission": {
+				"en": "You don't have permission to access this setting\nAsk a moderator for help.",
+				"ko": "해당 설정 권한이 없습니다.\n관리자에게 문의하세요.",
+				"zh_tw": "你沒有權限進行修改這個設定\n詢問管理員來獲得協助",
+				"zh_cn": "你没有权限进行修改这个设定\n询问管理员来获得协助",
+				"ms": "Anda tidak mempunyai kebenaran untuk mengakses seting ini\nanya pada moderator untuk bantuan.",
+				"es": "No tienes permiso para acceder a esta configuración\nPidele ayuda a un moderador"
+			}
+		},
+		"status": {
+			"online": {
+				"en": "Online",
+				"ko": "온라인",
+				"zh_tw": "線上",
+				"zh_cn": "在线",
+				"ms": "dalam talian",
+				"es": "En línea"
+			},
+			"away": {
+				"en": "Away",
+				"ko": "자리 비움",
+				"zh_tw": "離開",
+				"zh_cn": "离开",
+				"ms": "di tempat lain",
+				"es": "Lejos"
+			},
+			"busy": {
+				"en": "Busy",
+				"ko": "방해금지",
+				"zh_tw": "忙碌",
+				"zh_cn": "忙碌",
+				"ms": "Sibuk",
+				"es": "Ocupado"
+			},
+			"snooze": {
+				"en": "Snooze",
+				"ko": "장시간 자리 비움",
+				"zh_tw": "打瞌睡",
+				"zh_cn": "打盹",
+				"ms": "Tidur",
+				"es": "Dormir"
+			},
+			"offline": {
+				"en": "Offline",
+				"ko": "오프라인",
+				"zh_tw": "離線",
+				"zh_cn": "离线",
+				"ms": "luar talian",
+				"es": "Desconectado"
+			},
+			"SAR": {
+				"en": "Playing SAR",
+				"ko": "SAR 하는중",
+				"zh_tw": "正在遊玩Super Animal Royale",
+				"zh_cn": "正在玩小动物之星",
+				"ms": "Bermain SAR",
+				"es": "Jugando a Super Animal Royale"
+			}
+		}
+	},
+	"profile": {
+		"msg": {
+			"notLinked": {
+				"en": "<USER> has not yet linked their steam profile.\nAsk them to do so with `sk link` command! You can still look up the statistis with their Steam profile link.",
+				"ko": "<USER>의 등록된 스팀 계정이 없습니다.\n직접 `sk link`로 등록 하도록 요청해 보세요! 등록 없이 스팀 프로필 링크만으로도 조회가 가능합니다.",
+				"zh_tw": "<USER> 個人資料尚未連接\n請他們輸入 `sk link` 指令! 但你仍可透過輸入個人資料網址來查詢他們的戰績",
+				"zh_cn": "<USER> 个人资料尚未连接\n请他们输入 `sk link`指令! 但你仍可透过输入个人资料网址来查询他们的战绩",
+				"ms": "<USER> Belum memautkan profil steam\ninta mereka lakukan dengan koman! `sk link` Kamu masih boleh melihat statistik mereka dengan pautan profil Steam mereka.",
+				"es": "<USER> aún no ha vinculado su perfil de Steam.\n¡Pídeles que lo hagan con el comando `sk link`! Aún puedes buscar las estadísticas con el enlace de su perfil de Steam."
+			},
+			"close": {
+				"en": "Profile Statistics Closed",
+				"ko": "프로필 스텟 닫힘",
+				"zh_tw": "個人資料數據關閉",
+				"zh_cn": "个人资料数据关闭",
+				"ms": "Statistik Profil Ditutup",
+				"es": "Estadisticas de Perfil Cerradas"
+			}
+		},
+		"summary": {
+			"Kd": {
+				"en": "K/D",
+				"ko": "킬/뎃",
+				"zh_tw": "擊殺/死亡",
+				"zh_cn": "击杀/死亡",
+				"ms": "B/M",
+				"es": "B/M"
+			},
+			"Wr": {
+				"en": "WinRatio",
+				"ko": "승률",
+				"zh_tw": "勝率",
+				"zh_cn": "胜率",
+				"ms": "Catuan Menang",
+				"es": "Porcentaje de victorias"
+			},
+			"Tr": {
+				"en": "Top<#> Ratio",
+				"ko": "<#>위",
+				"zh_tw": "前<#>比率",
+				"zh_cn": "前<#>比率",
+				"ms": "<#> Teratas",
+				"es": "Top<#>"
+			}
+		},
+		"combat": {
+			"en": "Combat",
+			"ko": "전투",
+			"zh_tw": "戰鬥",
+			"zh_cn": "战斗",
+			"ms": "Pertempuran",
+			"es": "Combate",
+			"Kills": {
+				"en": "Total <#> Kills",
+				"ko": "전체 <#> 킬",
+				"zh_tw": "<#>總擊殺",
+				"zh_cn": "<#>总击杀",
+				"ms": "Jumlah <#> Bunuhan",
+				"es": " <#>Bajas totales"
+			},
+			"AvgKills": {
+				"en": "AVG <#> Kills",
+				"ko": "평균 <#> 킬",
+				"zh_tw": "<#>平均擊殺",
+				"zh_cn": "<#>平均击杀",
+				"ms": "Purata <#> Bunuh",
+				"es": "<#>Promedio de bajas"
+			},
+			"MostKills": {
+				"en": "Most Kills: <#>",
+				"ko": "최고 <#> 킬",
+				"zh_tw": "<#>最多擊殺",
+				"zh_cn": "<#>最多击杀",
+				"ms": "Bunuhan Terbanyak: <#>",
+				"es": "Mayoria de bajas: <#>"
+			},
+			"Kd": {
+				"en": "<#> K/D",
+				"ko": "<#> 킬/뎃",
+				"zh_tw": "<#> K/D",
+				"zh_cn": "<#> K/D",
+				"ms": "<#> B/M",
+				"es": "<#>B/M"
+			},
+			"GrenadeKills": {
+				"en": "<#> Throwable Kills",
+				"ko": "총 <#> 투척물 킬",
+				"zh_tw": "<#> 投擲物擊殺",
+				"zh_cn": "<#> 投掷物击杀",
+				"ms": "<#> Pembunuhan Bom",
+				"es": "<#>Muertes por granada"
+			},
+			"MeleeKills": {
+				"en": "<#> Melee Kills",
+				"ko": "총 <#> 근접 킬",
+				"zh_tw": "<#> 進戰擊殺",
+				"zh_cn": "<#> 进战击杀",
+				"ms": "<#> Pembunuhan jarak dekat",
+				"es": "<#>Bajas a melé"
+			},
+			"VehicleKills": {
+				"en": "<#> Hamsterball Kills",
+				"ko": "총 <#> 햄스터볼 킬",
+				"zh_tw": "<#> 倉鼠球擊殺",
+				"zh_cn": "<#> 仓鼠球击杀",
+				"ms": "<#> Pembunuhan menggunakan Bebola Hamster",
+				"es": "<#>Bajas con bola de hamster"
+			},
+			"EmuKills": {
+				"en": "<#> Emu Kills",
+				"ko": "총 <#> 에뮤 킬",
+				"zh_tw": "<#> 鴯鶓擊殺",
+				"zh_cn": "<#> 鸸鹋击杀",
+				"ms": "<#> Pembunuhan menggunakan Emu",
+				"es": "<#>Bajas con Emú"
+			},
+			"BananaHitsEnemyOnly": {
+				"en": "<#> Enemies sliped on banana",
+				"ko": "<#>명 적군을 바나나 껍질로 넘어뜨림",
+				"zh_tw": "<#> 香蕉皮滑倒敵軍數",
+				"zh_cn": "<#> 香蕉皮滑倒敌军数",
+				"ms": "<#> Musuh tergelincir di atas pisang",
+				"es": "<#>Enemigos que resbalaron en bananas"
+			},
+			"BananaHitsFriendly": {
+				"en": "<#> Teammate and self sliped on banana",
+				"ko": "<#>명 아군을 바나나 껍질로 넘어뜨림",
+				"zh_tw": "<#> 香蕉皮滑倒友軍數(包含自己)",
+				"zh_cn": "<#> 香蕉皮滑倒友军数(包含自身)",
+				"ms": "<#> Rakan sepasukan dan diri tergelincir di atas pisang",
+				"es": "<#>Compañeros que resbalaron en bananas"
+			}
+		},
+		"gameplay": {
+			"en": "Gameplay",
+			"ko": "게임 플레이",
+			"zh_tw": "總遊玩次數",
+			"zh_cn": "总游玩次数",
+			"ms": "Permainan",
+			"es": "Partida",
+			"Wr": {
+				"en": "<#>% Win Ratio",
+				"ko": "승률 <#>%",
+				"zh_tw": "<#>%勝率",
+				"zh_cn": "<#>%胜率",
+				"ms": "<#> Ratio Menang",
+				"es": "Ganar <#>%"
+			},
+			"Wins": {
+				"en": "Total <#> Wins",
+				"ko": "<#>번 승리",
+				"zh_tw": "<#> 總勝利次數",
+				"zh_cn": "<#> 总胜利次数",
+				"ms": "<#> Menang",
+				"es": "<#> Victorias totales"
+			},
+			"Top": {
+				"en": "Total <#> Top<A>s",
+				"ko": "<#>번 <A>위 이상 도달",
+				"zh_tw": "前<A>總比率  <#> ",
+				"zh_cn": "前<A>總比率  <#>",
+				"ms": "Jumlah <#> Teratas",
+				"es": " <#>Veces en el top<A>"
+			},
+			"Tr": {
+				"en": "<#>% Top<A> Ratio",
+				"ko": "<A>위 이상 <#>%",
+				"zh_tw": "Top<A>總比率:<#>",
+				"zh_cn": "Top<A>总比率:<#>",
+				"ms": "<#>% Catuan <A> Teratas",
+				"es": "<#>% De estar en el Top<A>"
+			},
+			"Games": {
+				"en": "Total <#> Matches",
+				"ko": "<#> 매치 플레이",
+				"zh_tw": "<#>總場數",
+				"zh_cn": "<#> 总场数",
+				"ms": "<#>Jumlah Permainan",
+				"es": "<#>Partidas totales"
+			},
+			"TimePlayedSeconds": {
+				"en": "Avg. Survival Time: <MM>:<SS>",
+				"ko": "평균 <MM>분 <SS>초 생존",
+				"zh_tw": "平均存活時間 : <MM>:<SS>",
+				"zh_cn": "平均存活时间: <MM>:<SS>",
+				"ms": "Purata Masa Kelangsungan Hidup: <MM>:<SS>",
+				"es": "Tiempo sobrevivido : <MM>:<SS>"
+			},
+			"Carry": {
+				"en": "Died but teammate still won the game <#> times",
+				"ko": "<#>번 죽은상태로 팀원이 승리",
+				"zh_tw": "自身死亡但隊友仍拿到勝利次數 : <#>",
+				"zh_cn": "自己白給但队友仍吃鸡次数 : <#>",
+				"ms": "Mati tetapi rakan sepasukan masih menang permainan <#> kali",
+				"es": "Murió pero su compañero igual ganó el juego <#> veces"
+			}
+		}
+	},
+	"Achievement": {
+		"en": "Achievements",
+		"ko": "도전과제",
+		"zh_tw": "成就",
+		"zh_cn": "成就",
+		"ms": "Achievements",
+		"es": "SÚPER OBJETIVOS",
+		"GamesAll": {
+			"en": "GAMES PLAYED",
+			"ko": "게임한 수",
+			"zh_tw": "總遊玩場次",
+			"zh_cn": "总游玩场次",
+			"ms": "GAMES PLAYED",
+			"es": "Partidas jugadas"
+		},
+		"WinsAll": {
+			"en": "WINS",
+			"ko": "승리",
+			"zh_tw": "總獲勝次數",
+			"zh_cn": "总获胜次数",
+			"ms": "WINS",
+			"es": "Victorias"
+		},
+		"WinsDuosSquads": {
+			"en": "DUOS/SQUADS WINS",
+			"ko": "듀오 / 스쿼드 승리 수",
+			"zh_tw": "雙排/團隊模式總獲勝次數",
+			"zh_cn": "双排/团队模式总获胜次数",
+			"ms": "DUOS/SQUADS WINS",
+			"es": "Victorias en Dúos/Escuadrones"
+		},
+		"ChickenWins": {
+			"en": "WINNNER WINNER CUPER CHICKEN",
+			"ko": "이겼닭! 오늘 저녁은 슈퍼 치킨이닭!",
+			"zh_tw": "大吉大利, 超級吃雞!",
+			"zh_cn": "大吉大利, 超级吃鸡!",
+			"ms": "WINNNER WINNER CUPER CHICKEN",
+			"es": "Ganador Ganador Super Gallina"
+		},
+		"TurkeyWins": {
+			"en": "WINNNER WINNER SUPER TURKEY",
+			"ko": "이겼죠 오늘 저녁은 칠면조죠",
+			"zh_tw": "大吉大利, 超級火雞!",
+			"zh_cn": "大吉大利, 超级火鸡!",
+			"ms": "WINNNER WINNER SUPER TURKEY",
+			"es": "Ganador Ganador Super Pavo"
+		},
+		"AccountLevelNew": {
+			"en": "LEVEL",
+			"ko": "레벨",
+			"zh_tw": "等級",
+			"zh_cn": "等级",
+			"ms": "LEVEL",
+			"es": "Nivel"
+		},
+		"PacifistVictoriesSolo": {
+			"en": "PACIFIST VICTORY (SOLO)",
+			"ko": "평화로운 승리(솔로)",
+			"zh_tw": "佛系勝利(單人模式)",
+			"zh_cn": "佛系胜利(单人模式)",
+			"ms": "PACIFIST VICTORY (SOLO)",
+			"es": "Victoria Pacifista(Solo)"
+		},
+		"MeleeVictoriesSolo": {
+			"en": "MELEE ONLY VICTORY (SOLO)",
+			"ko": "근접무기만을 사용해 승리 (솔로)",
+			"zh_tw": "僅使用近戰武器勝利(單人模式)",
+			"zh_cn": "仅使用近战武器胜利(单人模式)",
+			"ms": "MELEE ONLY VICTORY (SOLO)",
+			"es": "Victoria solo a melé(Solo)"
+		},
+		"NoArmorVictoriesSolo": {
+			"en": "NO ARMOR VICTORY (SOLO)",
+			"ko": "방어복 없이 승리 (솔로)",
+			"zh_tw": "無護甲勝利(單人模式)",
+			"zh_cn": "无护甲胜利(单人模式)",
+			"ms": "NO ARMOR VICTORY (SOLO)",
+			"es": "Victoria sin armadura(solo)"
+		},
+		"KillsAll": {
+			"en": "KILLS",
+			"ko": "킬수",
+			"zh_tw": "擊殺數",
+			"zh_cn": "击杀數",
+			"ms": "KILLS",
+			"es": "Bajas causadas"
+		},
+		"MeleeKills": {
+			"en": "MELEE KILLS",
+			"ko": "근접 킬수",
+			"zh_tw": "近戰擊殺數",
+			"zh_cn": "近战击杀数",
+			"ms": "MELEE KILLS",
+			"es": "Bajas a melé"
+		},
+		"VehicleKills": {
+			"en": "HAMSTER BALL KILLS",
+			"ko": "햄스터볼 킬수",
+			"zh_tw": "倉鼠球擊殺數",
+			"zh_cn": "仓鼠球击杀数",
+			"ms": "HAMSTER BALL KILLS",
+			"es": "Bajas con Bola de Hámster"
+		},
+		"EmuKills": {
+			"en": "EMU KILLS",
+			"ko": "에뮤 킬수",
+			"zh_tw": "鴯鶓擊殺數",
+			"zh_cn": "鸸鹋击杀数",
+			"ms": "EMU KILLS",
+			"es": "Bajas con Emú"
+		},
+		"GrenadeKills": {
+			"en": "GRENADE KILLS",
+			"ko": "수류탄 킬수",
+			"zh_tw": "手榴彈擊殺數",
+			"zh_cn": "手榴弹击杀数",
+			"ms": "GRENADE KILLS",
+			"es": "Bajas con granada"
+		},
+		"BananaHitsEnemyOnly": {
+			"en": "ENEMIES BANANA SLIPPED",
+			"ko": "바나나 껍질에 넘어진 적군수",
+			"zh_tw": "用香蕉使敵人滑倒次數",
+			"zh_cn": "用香蕉使敌人滑倒次数",
+			"ms": "ENEMIES BANANA SLIPPED",
+			"es": "Bananas - Resbalones enemigos"
+		},
+		"DestructiblesDestroyed": {
+			"en": "DESTRUCTIBLES DESTROYERD",
+			"ko": "파괴한 물체 수",
+			"zh_tw": "已摧毀的場景物件",
+			"zh_cn": "已摧毁的场景物件",
+			"ms": "DESTRUCTIBLES DESTROYERD",
+			"es": "Destructibles destruidos"
+		},
+		"DistanceTraveled": {
+			"en": "DISTANCE TRAVELED (KM)",
+			"ko": "총 이동 거리 (km)",
+			"zh_tw": "已行進距離(km)",
+			"zh_cn": "已行进距离(km)",
+			"ms": "DISTANCE TRAVELED (KM)",
+			"es": "Distancia recorrida"
+		},
+		"SuperJumpRolls": {
+			"en": "SUPER JUMP ROLLS",
+			"ko": "슈퍼 구르기",
+			"zh_tw": "超級跳滾次數",
+			"zh_cn": "超级跳滚次数",
+			"ms": "SUPER JUMP ROLLS",
+			"es": "Super volteretas"
+		},
+		"MoleCrates": {
+			"en": "MOLE CRATES",
+			"ko": "두더지 상자",
+			"zh_tw": "土撥鼠寶箱",
+			"zh_cn": "土拨鼠宝箱",
+			"ms": "MOLE CRATES",
+			"es": "Cargamentos de Topo"
+		},
+		"CampfiresUsed": {
+			"en": "CAMPFIRE USED",
+			"ko": "모닥불 이용수",
+			"zh_tw": "已使用過的營火",
+			"zh_cn": "已使用过的营火",
+			"ms": "CAMPFIRE USED",
+			"es": "Hogeras usadas"
+		},
+		"HealthJuiceDrank": {
+			"en": "HEALTH JUICE DRANK",
+			"ko": "건강 주스 섭취량",
+			"zh_tw": "已喝掉的生命果汁",
+			"zh_cn": "已喝掉的生命果汁",
+			"ms": "HEALTH JUICE DRANK",
+			"es": "Zumo de salud consumido"
+		},
+		"CoconutsAte": {
+			"en": "COCONUTS ATE",
+			"ko": "먹은 코코넛수",
+			"zh_tw": "吃掉的椰子數",
+			"zh_cn": "吃掉的椰子数",
+			"ms": "COCONUTS ATE",
+			"es": "Cocos devorados"
+		},
+		"TapeUsed": {
+			"en": "SUPER TAPE USED",
+			"ko": "슈퍼 테이프 사용",
+			"zh_tw": "已使用的超級膠帶",
+			"zh_cn": "已使用的超级胶带",
+			"ms": "SUPER TAPE USED",
+			"es": "Super cinta usada"
+		},
+		"EnemyArmorBroken": {
+			"en": "ENEMY ARMOR BROKEN",
+			"ko": "적군 방어복 파괴",
+			"zh_tw": "已破壞的敵人護甲數",
+			"zh_cn": "已破坏的敌人护甲数",
+			"ms": "ENEMY ARMOR BROKEN",
+			"es": "Armadura del enemigo destruida"
+		},
+		"SkunkBombDamageDealt": {
+			"en": "SKUNK BOMB DAMAGE DEALT",
+			"ko": "스컹크 폭탄으로 입힌 피해",
+			"zh_tw": "臭鼬彈造成傷害",
+			"zh_cn": "臭鼬弹造成伤害",
+			"ms": "SKUNK BOMB DAMAGE DEALT",
+			"es": "Bomba de Mofeta - Daño causado"
+		},
+		"GrassCut": {
+			"en": "GRASS CUT",
+			"ko": "깎은 잔디 수",
+			"zh_tw": "割草數",
+			"zh_cn": "割草数",
+			"ms": "GRASS CUT",
+			"es": "Hierba cortada"
+		},
+		"ParachuteSplats": {
+			"en": "FAILURE TO LAND",
+			"ko": "착륙에 실패하기",
+			"zh_tw": "著陸失敗",
+			"zh_cn": "着陆失败",
+			"ms": "FAILURE TO LAND",
+			"es": "Fallo de aterrizaje"
+		},
+		"BananOfferings": {
+			"en": "PRAISE BANAN",
+			"ko": "바나나 찬양하기",
+			"zh_tw": "讚美蕉神",
+			"zh_cn": "赞美蕉神",
+			"ms": "PRAISE BANAN",
+			"es": "Alabado sea Banan"
+		},
+		"NoDancing": {
+			"en": "NO DANCING!",
+			"ko": "춤추면 안돼요!",
+			"zh_tw": "禁止跳舞!",
+			"zh_cn": "禁止跳舞!",
+			"ms": "NO DANCING!",
+			"es": "¡Prohibido bailar!"
+		},
+		"StorytimeDonk": {
+			"en": "A TIP FOR DONK",
+			"ko": "Donk씨를 위한 팁",
+			"zh_tw": "給Donk的小費",
+			"zh_cn": "给Donk的小费",
+			"ms": "A TIP FOR DONK",
+			"es": "Una ofrenda para donk"
+		},
+		"BarnRebelDoor": {
+			"en": "FOUND THE SASR HIDEOUT",
+			"ko": "SASR의 비밀기지 찾기",
+			"zh_tw": "找到超級動物反抗軍藏身處",
+			"zh_cn": "找到超级动物反抗军藏身处",
+			"ms": "FOUND THE SASR HIDEOUT",
+			"es": "Encuentra la guarida de SASR"
+		},
+		"RatGG": {
+			"en": "DART THE (NOT A) RAT",
+			"ko": "쥐(가 아닌 사람)를 다트건으로 쏘기",
+			"zh_tw": "用毒鏢槍射擊那隻(不是)老鼠",
+			"zh_cn": "用毒镖枪射击那只(不是)老鼠",
+			"ms": "DART THE (NOT A) RAT",
+			"es": "Dardo para(no es)una rata"
+		},
+		"Scarecrows": {
+			"en": "SCARECOWS DESTROYED",
+			"ko": "허새아비 부수기",
+			"zh_tw": "摧毀稻草鴨",
+			"zh_cn": "摧毁稻草鸭",
+			"ms": "SCARECOWS DESTROYED",
+			"es": "Espantapájaros Destruidos"
+		},
+		"GalleryTargetsHit": {
+			"en": "SHOOT A GALLERY TARGET",
+			"ko": "과녁을 맞추기",
+			"zh_tw": "射擊標靶",
+			"zh_cn": "射击标靶",
+			"ms": "SHOOT A GALLERY TARGET",
+			"es": "Dispara a un objetivo de la galería"
+		},
+		"BeGalleryTarget": {
+			"en": "BE A GALLERY TARGET",
+			"ko": "내가 과녁이 되어보기",
+			"zh_tw": "成為標靶",
+			"zh_cn": "成为标靶",
+			"ms": "BE A GALLERY TARGET",
+			"es": "Haz de objetivo en la galería"
+		},
+		"DancingInTheRain": {
+			"en": "DANCING IN THE RAIN",
+			"ko": "비 속에서 춤추기",
+			"zh_tw": "雨中起舞",
+			"zh_cn": "雨中起舞",
+			"ms": "DANCING IN THE RAIN",
+			"es": "Bailando en la lluvia"
+		},
+		"NPCLab": {
+			"en": "DR. DOGNA'S SECRET LAB LAB",
+			"ko": "도그나 박사의 비밀 Lab 연구소",
+			"zh_tw": "Dogna博士的秘密拉布拉多實驗室",
+			"zh_cn": "Dogna博士的秘密拉布拉多实验室",
+			"ms": "DR. DOGNA'S SECRET LAB LAB",
+			"es": "El Lab Lab Secreto de la Doctora Dogna"
+		},
+		"NpcSphynx": {
+			"en": "THE FIRST SUPER SKULLCAT",
+			"ko": "최초의 슈퍼 스컬켓",
+			"zh_tw": "第一隻超級骷髏貓",
+			"zh_cn": "第一只超级骷髅猫",
+			"ms": "THE FIRST SUPER SKULLCAT",
+			"es": "El Primer Súper Skullcat"
+		}
+	},
+	"cute": {
+		"en": "Yes, I know.\nThank you~ 💜",
+		"ko": "당연한 걸 가지고..\n감사합니다~ 💜",
+		"zh_tw": "是的,我都知道 \n謝啦~💜",
+		"zh_cn": "是的,我知道 \n谢谢你~💜",
+		"ms": "Ya, Saya tahu.\nTerima Kasih~ 💜"
+	}
+}

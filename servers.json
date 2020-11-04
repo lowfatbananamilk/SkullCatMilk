@@ -1,0 +1,105 @@
+{
+	"398951434583801860": {
+		"name": "Rozi and friends",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "648513298832293894"
+	},
+	"467918120850292757": {
+		"name": "dasd",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "467918120850292759"
+	},
+	"479309525040758797": {
+		"name": "Rakker&Clayton",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "479309525485223947"
+	},
+	"480279632025747459": {
+		"name": "Test",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "480279632474800129"
+	},
+	"578229846983835648": {
+		"name": "Happy Fun Time",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "721367352003919972"
+	},
+	"678119847531380736": {
+		"name": "Test Server",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "678119847531380739"
+	},
+	"713280683891752980": {
+		"name": "Bot server",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": null,
+		"deleted": true
+	},
+	"741558535485390919": {
+		"name": "A Plain Bowl Of SAR Tips",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "741558535997095984"
+	},
+	"749948187908767824": {
+		"name": "AS SAR SCRIM SERVER",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "761576029164273724"
+	},
+	"723014705538662400": {
+		"name": "개인용",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "767067035606712321"
+	},
+	"529378910488494110": {
+		"name": "Super Animal Royale KOR",
+		"lang": "ko",
+		"allowTrack": true,
+		"defaultChannel": "700931933533765732"
+	},
+	"756153786979975258": {
+		"name": "Trash's Trash",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "767099191465345054"
+	},
+	"682910231881056291": {
+		"name": "SAR_Drawing",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "682910295164715008"
+	},
+	"353416936106885140": {
+		"name": "1165464",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "353416936106885141"
+	},
+	"697454038706421872": {
+		"name": "실험실",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "697454038706421875"
+	},
+	"543010477203259393": {
+		"name": "UnderDog (UD)",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "595505346848751638"
+	},
+	"741015639807754262": {
+		"name": "Kal's Pirate Ship",
+		"lang": "en",
+		"allowTrack": true,
+		"defaultChannel": "771665212126265354"
+	}
+}

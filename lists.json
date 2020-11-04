@@ -1,0 +1,464 @@
+{
+    "reportCombatList": ["GrenadeKills", "MeleeKills", "VehicleKills", "EmuKills", "DamageDealt", "SkunkBombDamageDealt", "EnemyArmorBroken"],
+    "reportBananaHitsList": ["BananaHits", "BananaHitsEnemyOnly", "BananaHitsFriendly"],
+    "reportGameplayList": ["DistanceTraveled", "SuperJumpRolls","GrassCut", "DestructiblesDestroyed"],
+    "reportEventList": ["ChickenWins", "TurkeyWins", "NoArmorVictoriesSolo", "MeleeVictoriesSolo", "PacifistVictoriesSolo", "BananOfferings", "BarnRebelDoor", "BeGalleryTarget", "GalleryTargetsHit", "GalleryTargetsHitBow", "RatGG", "DancingInTheRa"],
+    "quizzes": {
+        "novice": [
+            {
+                "Q": "Which is not a basic animal?",
+                "O": ["Tiger", "Cat", "SkullCat", "Bear"],
+                "A": 1
+            },
+            {
+                "Q": "What is the name of the game?",
+                "O": ["Super Animal Royale", "Super Animal Royal", "Super Animal Battle Royale", "Super Animal Battle Royal"],
+                "A": 0
+            },
+            {
+                "Q": "Which is not a game mode?",
+                "O": ["Solos ", "Squads", "Duos", "Trios" ],
+                "A": 3
+            },
+            {
+                "Q": "What is the color of the umbrella you start with? ",
+                "O": ["Blue", "Green", "Red", "Yellow" ],
+                "A": 2
+            },
+            {
+                "Q": "What is your starting weapon? ",
+                "O": ["Katana", "Newspaper", "Sword", "Wooden sword"],
+                "A": 0
+            },
+            {
+                "Q": "Which is not a gun in the game?",
+                "O": ["Shotgun", "Pistol", "Deagle", "Water gun🔫" ],
+                "A": 3
+            },
+            {
+                "Q": "Which is not a place in Super Animal World?",
+                "O": ["Superite Mountain", "Thomas' Tundra", "Pete's Swamp", "Bob's Resort" ],
+                "A": 3
+            },
+            {
+                "Q": "How squares compromise the map?",
+                "O": ["7x7", "8x8", "9x9", "10x10"],
+                "A": 1
+            },
+            {
+                "Q": "Which is not a server in SAR?",
+                "O": ["Australia", "Europe", "North America", "Asia"],
+                "A": 0
+            },
+            {
+                "Q": "What is the name color of developers in-game?",
+                "O": ["Green", "Blue", "Purple", "Orange"],
+                "A": 2
+            },
+            {
+                "Q": "Which item can you not pick up?",
+                "O": ["Bananas", "Coconuts", "Grenades", "Skunk grenades"],
+                "A": 1
+            },
+            {
+                "Q": "What rarity does orange stand for?",
+                "O": ["Limited", "Event", "Special", "Legendary"],
+                "A": 2
+            },
+            {
+                "Q": "What is the default color of the fox?",
+                "O": ["🟠 Orange", "⚪ White", "🔴 Red", "🟡 Yellow"],
+                "A": 0
+            },
+            {
+                "Q": "Which type of plant can you party in?",
+                "O": ["Tree", "Shrub", "Grass", "Bush"],
+                "A": 3
+            },
+            {
+                "Q": "Which is not a color rarity?",
+                "O": ["🔵 Blue", "🟢 Green", "🔴 Red", "🟡 Yellow"],
+                "A": 2
+            },
+            {
+                "Q": "What is the main function of campfires?",
+                "O": ["Purely decorative", "Recovering Health", "Damage enemies", "Drops loot"],
+                "A": 1
+            },
+            {
+                "Q": "What is the main purpose of rolling?",
+                "O": ["Jumping over crates", "Noise reduction", "Speed increase", "Bullets phase through you"],
+                "A": 2
+            },
+            {
+                "Q": "How much protection do hamster balls give you?",
+                "O": ["1 tick of armor", "2 ticks of armor", "2 ticks of armor", "3 ticks of armor"],
+                "A": 3
+            },
+            {
+                "Q": "What is the maximum amount of bananas you can hold?",
+                "O": ["3", "5", "10", "Limitless"],
+                "A": 2
+            },
+            {
+                "Q": "What happens when you eat a coconut?",
+                "O": ["Nothing", "Recovers lost health", "Increases earned exp", "Increases health juice supply"],
+                "A": 1
+            },
+            {
+                "Q": "What is the main purpose of bananas?",
+                "O": ["Slipping/Stunning enemies", "Damaging Enemies", "Slowness debuff", "Poisoning enemies"],
+                "A": 0
+            },
+            {
+                "Q": "Which statement is false?",
+                "O": ["Skunk gas damage increases throughout the match", "One sniper shot destroys all armor", "Hamster balls slow down when damaged", "Skunk bombs only damage health"],
+                "A": 2
+            },
+            {
+                "Q": "Which weapon slows you down the most?",
+                "O": ["Sniper", "SMG", "Melee Weapon", "Throwables"],
+                "A": 0
+            },
+            {
+                "Q": "Which statement is true?",
+                "O": ["You will always get tape from a mole crate", "Rolling will cancel reloading", "Bots pick up armor", "You can roll through water"],
+                "A": 1
+            },
+            {
+                "Q": "What is the maximum amount of bullets you can shoot from the deagle before reloading? ",
+                "O": ["5", "7", "9", "10"],
+                "A": 1
+            },
+            {
+                "Q": "Which statement is true?",
+                "O": ["The maximum amount of small bullets you can hold without a weapon is 100 without a weapon", "The maximum amount of sniper bullets you can hold without a weapon is 30", "The maximum amount of shotgun bullets you can hold is 10 without a gun", "The maximum amount of big bullets you can hold without a weapon is 80"],
+                "A": 1
+            },
+            {
+                "Q": "What  is the maximum amount of damage that a single skunk bomb can deal?",
+                "O": ["100+ health", "90 health", "70 health", "50 health"],
+                "A": 0
+            },
+            {
+                "Q": "What is the maximum amount of health juice you can carry?",
+                "O": ["50", "100", "200", "250"],
+                "A": 2
+            },
+            {
+                "Q": "How much health juice does a large mug carry that spawns naturally?",
+                "O": ["10 health juice", "200 health juice", "20 health juice", "40 health juice"],
+                "A": 3
+            },
+            {
+                "Q": "Which weapon has the highest ammo capacity?",
+                "O": ["Minigun", "AK", "Shotgun", "SMG"],
+                "A": 0
+            }
+        ],
+        "intermediate": [
+            {
+                "Q": "What species is Pete?",
+                "O": ["Panda", "Fox", "Sloth", "Skullcat"],
+                "A": 2
+            },
+            {
+                "Q": "Which is not a game mode?",
+                "O": ["Knife", "Katana", "Light Swords", "Axe" ],
+                "A": 3
+            },
+            {
+                "Q": "What is the top-leftmost square on the map?",
+                "O": ["A1", "A8", "H1", "H8" ],
+                "A": 0
+            },
+            {
+                "Q": "Where do you spawn when waiting for a game to start?",
+                "O": ["Bamboo Resort", "Research Labs", "Shipyards", "Welcome Center" ],
+                "A": 3
+            },
+            {
+                "Q": "How many frozen lakes are there?",
+                "O": ["Zero", "One", "Two", "Three"],
+                "A": 2
+            },
+            {
+                "Q": "What is Thomas' last name?",
+                "O": ["Sleddington", "Sledisson", "Sleddison", "Sledington"],
+                "A": 2
+            },
+            {
+                "Q": "What is Thomas's breed?",
+                "O": ["Husky", "White fox", "White tiger", "Fox"],
+                "A": 0
+            },
+            {
+                "Q": "In the official SAR discord, who does not appear when you type !pun?",
+                "O": ["Aurori", "Dukey Bear", "Thomas", "raven"],
+                "A": 2
+            },
+            {
+                "Q": "How many mole crates spawn each game?",
+                "O": ["1", "2", "3", "4"],
+                "A": 1
+            },
+            {
+                "Q": "Which is not a light sword color?",
+                "O": ["Black", "Purple", "Green", "Blue"],
+                "A": 0
+            },
+            {
+                "Q": "According to an in-game sign, what type of DNA is added to the giant eagle?",
+                "O": ["Hawk DNA", "Owl DNA", "Duck DNA", "Songbird DNA"],
+                "A": 2
+            },
+            {
+                "Q": "Which is not a Giant Eagle Landing place?",
+                "O": ["Beakeasy", "Eggxotic Cuisine", "Flappy Jacks", "Giant Eagle Rides "],
+                "A": 1
+            },
+            {
+                "Q": "How do you spell the restaurant at SAW Welcome Center correctly?",
+                "O": ["Meat and eat", "Meet and eat", "Meet n' eat", "Meat n' eat"],
+                "A": 2
+            },
+            {
+                "Q": "Which super dog requires the most number of DNA among these four?",
+                "O": ["Super Golden Labrador", "Super Shiba Inu", "Super Boston Terrier", "Super Tricolor Corgi"],
+                "A": 3
+            },
+            {
+                "Q": "Which of these are incorrectly paired?",
+                "O": ["Deer at Level 10", "Panda at Level 30", "Cow at Level 20", "Capybara at Level 50"],
+                "A": 2
+            },
+            {
+                "Q": "How long does the window for a perfect roll last?",
+                "O": ["Half a second", "0.1 Seconds", "1 second", "0.2 Seconds"],
+                "A": 1
+            },
+            {
+                "Q": "How much do campfires heal you by?",
+                "O": ["100 health ", "50 health ", "80 health ", "60 health "],
+                "A": 3
+            },
+            {
+                "Q": "Which statement is true regarding sneak rolls?",
+                "O": ["Sneak rolls cannot be heard by enemy players", "Sneak rolls last just as long as regular rolls", "You cannot perfect roll for sneak rolls", "Bushes don't play an animation when you sneak roll through them"],
+                "A": 1
+            },
+            {
+                "Q": "How much Health do you normally recover for every second you drink health juice?",
+                "O": ["9.5 HP per second", "10 HP per second", "15 HP per second", "12.5 HP per second"],
+                "A": 0
+            },
+            {
+                "Q": "Which statement is false regarding game mechanics?",
+                "O": ["Campfires heal you when knocked", "Throwables and Melee weapons have the same movement speed", "You can throw throwables over short walls", "Mole crates always have Level 3 Armor"],
+                "A": 1
+            },
+            {
+                "Q": "How much do fruit baskets heal you by?",
+                "O": ["10 Health Points", "20 Health Points", "Half of your health", "It doesn't heal you"],
+                "A": 1
+            },
+            {
+                "Q": "Which statement is false regarding bots?",
+                "O": ["Bots increase in difficulty the higher level you are", "Bots do not pick up armor", "Bots without weapons do not detect enemy players", "Bots will always face the direction they are moving"],
+                "A": 3
+            },
+            {
+                "Q": "Which statement is true regarding explosives?",
+                "O": ["Explosives deal all damage instantaneously", "Armor protects you from explosion damage", "Grenades can drop from grass", "Hamster balls protect you from explosion damage"],
+                "A": 0
+            },
+            {
+                "Q": "Which statement is true regarding hamster balls?",
+                "O": ["Hamster balls damage armor", "Hamster balls don’t damage emus", "Hamster balls break explosive barrels", "Hamster balls only damage health"],
+                "A": 3
+            },
+            {
+                "Q": "How long does it take to use one tape?",
+                "O": ["3 seconds", "1 second", "2 seconds", "Half a second"],
+                "A": 2
+            },
+            {
+                "Q": "When do items such as tape, grenades, and skunk bombs start to stack?",
+                "O": ["5 items", "more than 3 items", "more than 1 items", "more than 2 items"],
+                "A": 3
+            },
+            {
+                "Q": "Which objects fade when you stand behind them?",
+                "O": ["Bushes", "Cactuses", "Explosive Barrels", "Crates"],
+                "A": 1
+            },
+            {
+                "Q": "How long do bananas stun you?",
+                "O": ["2 Seconds", "5 Seconds", "1 Second", "3 Seconds"],
+                "A": 0
+            },
+            {
+                "Q": "Which statement is true regarding bananas?",
+                "O": ["They are evil", "They can only be found in grass", "They can only be destroyed by slipping on them", "You can see people slip on bananas outside your line of sight"],
+                "A": 3
+            },
+            {
+                "Q": "How much damage do grenades deal?",
+                "O": ["125", "100", "200", "150"],
+                "A": 3
+            }
+        ],
+        "expert": [
+            {
+                "Q": "Which of these animals can't you see in game?",
+                "O": ["Crows", "Butterflies", "Fireflies", "Fish"],
+                "A": 3
+            },
+            {
+                "Q": "How many Super Powerups are there?",
+                "O": ["3", "4", "5", "6"],
+                "A": 2
+            },
+            {
+                "Q": "How many types of ammunition are there?",
+                "O": ["4", "5", "6", "7"],
+                "A": 2
+            },
+            {
+                "Q": "What is the percentage of Duck DNA in the Giant Eagle?",
+                "O": ["3%", "7%", "18%", "42%"],
+                "A": 1
+            },
+            {
+                "Q": "Where is the raven statue located in super animal royale?",
+                "O": ["Superite Mountain", "Super Pyramid", "Secret Banan Cave", "S.A.W. Welcome Center"],
+                "A": 0
+            },
+            {
+                "Q": "In Super Animal Royale Tonight Episode 1, which super animal wore a rebellion helmet?",
+                "O": ["Fox", "Raccoon", "Deer", "Tiger"],
+                "A": 2
+            },
+            {
+                "Q": "Which is not a bot name?",
+                "O": ["Muffin", "Cake", "Clive", "Sushi"],
+                "A": 0
+            },
+            {
+                "Q": "What font is used in SAR?",
+                "O": ["Raleway", "Rubik", "Robotto", "Lato"],
+                "A": 1
+            },
+            {
+                "Q": "What is the highest gem color?",
+                "O": ["Extra Superite", "Superite", "Mega Superite", "Ultra Superite"],
+                "A": 3
+            },
+            {
+                "Q": "Who was the first SAR moderator?",
+                "O": ["XG", "Harle", "Catler", "Mango"],
+                "A": 3
+            },
+            {
+                "Q": "How much XP do you get for each kill",
+                "O": ["20", "30", "40", "50"],
+                "A": 0
+            },
+            {
+                "Q": "Who is not a member of Pixile?",
+                "O": ["Kennymokk", "Feyla (Alex)", "Zacharysmith", "rubengrijalva"],
+                "A": 2
+            },
+            {
+                "Q": "How much grass do you need to cut to get the scythe?",
+                "O": ["2000 pieces of grass", "20000 pieces of grass", "200000 pieces of grass", "2000000 pieces of grass"],
+                "A": 1
+            },
+            {
+                "Q": "How much coconuts do you have to eat to get the Coconut Hula Skirt",
+                "O": ["75", "750", "350", "150"],
+                "A": 1
+            },
+            {
+                "Q": "In episode 2 of SAR tonight, which animal can be seen in the technical difficulties screen?",
+                "O": ["Super Fox", "Super Cat", "Super Monkey", "Super Beaver"],
+                "A": 1
+            },
+            {
+                "Q": "What are bullet hitboxes based on?",
+                "O": ["Bullet hitboxes are based on hit scan", "Bullet hitboxes are based on the head of the bullet", "Bullet hitboxes are based on the tail of the bullet", "Bullet hitboxes are based on ground location "],
+                "A": 3
+            },
+        {
+                "Q": "Which statement is true regarding player positions?",
+                "O": ["Your SAR characters position is shown lower on enemy screens", "Your SAR character position is shown higher on enemy screens", "Your SAR characters position is further to the right on enemy screens", "Your SAR characters position is further to the left on enemy screens"],
+                "A": 0
+            },
+        {
+                "Q": "At what ping does bullet damage change?",
+                "O": ["Starting at 125+ ping", "Starting at 175+ ping", "Starting at 200+ ping", "Starting at 150+ ping"],
+                "A": 3
+            },
+        {
+                "Q": "Which statement is true regarding bullet damage?",
+                "O": ["All bullet damage is halved when you have a 150+ ping, if the enemy is hit with a sniper/deagle", "All bullet damage is halved when you have a 150+ ping, if the enemy is far enough", "All bullet damage is nullified when you have a 150+ ping, if the enemy is hit with a sniper/deagle", "All bullet damage is nullified when you have a 150+ ping, if the enemy is far enough"],
+                "A": 1
+            },
+        {
+                "Q": "How many gem colors are there?",
+                "O": ["10", "15", "5", "20"],
+                "A": 0
+            },
+        {
+                "Q": "At what level do you get the Rebellion Sword",
+                "O": ["200", "300", "250", "100"],
+                "A": 1
+            },
+        {
+                "Q": "How many SAR Tonight items are there? ",
+                "O": ["7", "5", "6", "8"],
+                "A": 0
+            },
+            {
+                "Q": "What is the difference between red and purple hitboxes?",
+                "O": ["Red hitboxes don't  block grenades, purple hitboxes block grenades", "Red hitboxes don't block bullets, purple hitboxes block bullets", "Red hitboxes don't block movement, purple hitboxes block movement", "Red hitboxes don't block vision, purple hitboxes block vision "],
+                "A": 3
+            },
+            {
+                "Q": "What is the maximum amount of SAR sounds that can be played at once in-game?",
+                "O": ["30", "50", "20", "10"],
+                "A": 0
+            },
+        {
+                "Q": "Which statement is true regarding rifles?",
+                "O": ["The blue AK has a higher movement speed than the purple M16", "The blue AK has a higher base damage than the purple M16", "The blue AK has a  faster reload time than the purple M16", "The blue AK has a higher range than the purple M16"],
+                "A": 1
+            },
+        {
+                "Q": "How long is one SAU?",
+                "O": ["10 pixels", "5 pixels", "8 pixels", "12 pixels "],
+                "A": 2
+            },
+        {
+                "Q": "What is the shape of the hamster ball hitbox?",
+                "O": ["Elliptical ", "Rectangular ", "Perfect Square ", "Perfect Circle"],
+                "A": 0
+            },
+        {
+                "Q": "Which statement is false? ",
+                "O": ["Explosive barrels deal more damage than grenades", "Explosive barrels can be destroyed by emus", "Explosive barrels can deal damage through walls", "Explosive barrels always explode when it is in range of a grenade explosion"],
+                "A": 0
+            },
+        {
+                "Q": "What is the transparency % when you hide behind an object?",
+                "O": ["~70%", "~100%", "~80%", "~50%"],
+                "A": 2
+            },
+        {
+                "Q": "Banan?",
+                "O": ["Apple", "Orange", "Coconut", "Banan!"],
+                "A": 3
+            }
+        ]    
+    }
+}
